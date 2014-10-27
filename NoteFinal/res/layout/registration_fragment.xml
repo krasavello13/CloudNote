@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/registration_LoginEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marging_top"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/login_edit_text"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/text_size_edit_text"
+        android:textStyle="italic" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/registration_PasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marging_top"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/password_edit_text"
+        android:inputType="textPassword"
+        android:textSize="@dimen/text_size_edit_text" 
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/registration_ReenterPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marging_top"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/reenter_passwod_edit_text"
+        android:inputType="textPassword"
+        android:textSize="@dimen/text_size_edit_text" 
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/registration_ButtonEnter"
+        style="@style/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marging_top"
+        android:text="@string/button_enter"
+        android:textSize="@dimen/text_size_text_view"
+        android:textStyle="italic" />
+
+</LinearLayout>

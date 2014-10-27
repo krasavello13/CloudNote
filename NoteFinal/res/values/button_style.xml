@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ButtonStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:background">#249ECF</item>
+    </style>
+    
+    <style name="ButtonListStyle" parent="@android:style/TextAppearance">
+        <item name="android:typeface">monospace</item>
+        <item name="android:background">@android:drawable/ic_delete</item>
+    </style>
+
+</resources>
